@@ -21,7 +21,7 @@
   left: 20px;
   right: 20px;
   transform: translate(-20px, 0);
-  background-color:cyan;
+  background-color: cyan;
 }
 .navbar .logo {
   display: inline-block;
@@ -157,25 +157,45 @@
   border-radius: 15px;
 }
 
-.image-content{
-   display: inline-block;
-   margin: 20px auto;
-    
-    
-    
-}
-.team-list{
+.image-content {
   display: inline-block;
   margin: 20px auto;
 }
-.team-list li{
+.team-list {
   display: inline-block;
-  margin: 20px 0px 20px 50px ;
+  margin: 20px auto;
+}
+.team-list li {
+  display: inline-block;
+  margin: 20px 0px 20px 50px;
   padding: 20px 20px;
   width: 20vw;
   height: 15vh;
   text-align: center;
   font-size: 1.2em;
-
+}
+footer{
   
+  background: rgba(46, 47, 66, 1);
+
+
+}
+.text3 {
+  margin-left: 50px;
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.text4 {
+  margin-left: 5px;
+  display: inline-block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+footer>p{
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  padding: 20px 20px;
+  text-align: justify;
+  margin: 20px 20px;
+  width: 25vw;
 }
